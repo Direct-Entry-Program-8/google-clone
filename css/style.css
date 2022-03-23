@@ -100,7 +100,7 @@ header #btn-app svg{
      padding: 0 20px;
      display: flex;
      flex-wrap: wrap;
-     justify-content: space-around;
+     justify-content: space-between;
  }
 
  footer #links > div{
@@ -125,6 +125,12 @@ header #btn-app svg{
     header{
         justify-content: center;
     }
+ }
+
+ @media all and (max-width: 664px){
+     footer #links{
+        justify-content: center;
+     }
  }
 
  @media all and (max-width: 1200px){
