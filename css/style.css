@@ -37,7 +37,11 @@
  }
 
  header{
-     display: flex;
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 6px;
  }
 
  header a{
@@ -80,3 +84,9 @@ header #btn-app svg{
  /* == Key Frames */
 
  /* == Media Queries */
+
+ @media all and (max-width: 419px){
+    header{
+        justify-content: center;
+    }
+ }
