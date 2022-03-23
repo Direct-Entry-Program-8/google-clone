@@ -1,0 +1,27 @@
+/* Copyright © 2022 DEP8. All Rights Reserved.
+ * This project is licensed under the MIT License.
+ * Please find the license file in the root directory.
+ *
+ * style.css
+ *
+ * Author: Direct Entry Program <dep8@ijse.lk>
+ */
+
+ /* == Base Styles | Utitlies */
+
+ *{
+     box-sizing: border-box;
+     font-family: Arial, sans-serif;
+ }
+
+ .clearfix{
+     clear: both;
+ }
+
+ /* == Site-Wide | Layout */
+
+ /* == Page Specific */
+
+ /* == Key Frames */
+
+ /* == Media Queries */
