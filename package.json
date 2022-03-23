@@ -1,0 +1,16 @@
+{
+  "name": "google-clone",
+  "version": "1.0.0",
+  "description": "Google Clone by DEP8",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Direct-Entry-Program-8/google-clone.git"
+  },
+  "keywords": ["Google Clone"],
+  "author": "Direct Entry Program <dep8@ijse.lk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Direct-Entry-Program-8/google-clone/issues"
+  },
+  "homepage": "https://github.com/Direct-Entry-Program-8/google-clone#readme"
+}
