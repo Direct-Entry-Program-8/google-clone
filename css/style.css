@@ -81,6 +81,20 @@ header #btn-app svg{
     fill: #5f6368;
  }
 
+ footer{
+     position: fixed;
+     left: 0;
+     right: 0;
+     background-color: #f2f2f2;
+     bottom: 0;
+     color: #70757a;
+ }
+
+ footer #country{
+     padding: 15px 30px;
+     font-size: 15px;
+ }
+
  /* == Key Frames */
 
  /* == Media Queries */
