@@ -93,6 +93,28 @@ header #btn-app svg{
  footer #country{
      padding: 15px 30px;
      font-size: 15px;
+     border-bottom: 1px solid #dadce0;
+ }
+
+ footer #links{
+     padding: 0 20px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+ }
+
+ footer #links > div{
+     display: flex;
+     justify-content: center;
+ }
+
+ footer #links > div:first-child{
+     flex-wrap: wrap;
+ }
+
+ footer #links > div a{
+     padding:15px;
+     color: inherit;
  }
 
  /* == Key Frames */
@@ -102,5 +124,11 @@ header #btn-app svg{
  @media all and (max-width: 419px){
     header{
         justify-content: center;
+    }
+ }
+
+ @media all and (max-width: 1200px){
+    footer #links > div{
+        justify-content: space-evenly;
     }
  }
