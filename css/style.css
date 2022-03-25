@@ -90,7 +90,7 @@ header #btn-app svg{
      flex-direction: column;
      align-items: center;
      margin-top: 8px;
-     gap: 45px;     /* To-do: Change later */
+     justify-content: center;
  }
 
  main #logo-wrapper{
@@ -99,9 +99,16 @@ header #btn-app svg{
      height: 103px;
  }
 
+ main #form-wrapper{
+     width: 100%;
+     padding: 20px;
+ }
+
  main form #search-wrapper{
      display: flex;
-     width: 582px;
+     max-width: 582px;
+     margin: auto;
+     width: 100%;
      height: 44px;
      border: 1px solid #dfe1e5;
      border-radius: 24px;
@@ -128,6 +135,43 @@ header #btn-app svg{
      margin-right: 10px;
      border: none;
      outline: none;
+ }
+
+ main form #button-wrapper{
+     padding-top: 18px;
+     text-align: center;
+ }
+
+ main form button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+ }
+
+ main form button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+ }
+
+ main #offer-wrapper{
+     font-size: 13px;
+ }
+
+ main #offer-wrapper a{
+     padding: 0 2px;
  }
 
  /* == Footer */
