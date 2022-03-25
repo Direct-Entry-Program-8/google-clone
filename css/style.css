@@ -99,6 +99,37 @@ header #btn-app svg{
      height: 103px;
  }
 
+ main form #search-wrapper{
+     display: flex;
+     width: 582px;
+     height: 44px;
+     border: 1px solid #dfe1e5;
+     border-radius: 24px;
+     align-items: center;
+ }
+
+ main form #search-wrapper:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+ }
+
+ main form #search-wrapper #icon-search{
+     padding: 0 14px;
+ }
+
+ main form #search-wrapper svg{
+     width: 20px;
+     height: 20px;
+     fill: #9aa0a6;
+ }
+
+ main form #search-wrapper input{
+     width: 100%;
+     margin-right: 10px;
+     border: none;
+     outline: none;
+ }
+
  /* == Footer */
 
  footer{
